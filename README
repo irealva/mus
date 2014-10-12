@@ -2,12 +2,39 @@ muS: Project for Programming Languages and Translators Course at Columbia Univer
 Spring 2011
 Professor: Alfred V. Aho
 
+Participants:
 Irene Alvarado – Project Manager
 Richard Boyle – System Integrator
 Jonathan Dunn – Language Guru
 Farbound Tai – Verification & Validation
 Taylor Owens - System Architect
 
+Description:
+muS is a language for music composition and analysis. It takes musical analysis one-step further by allowing composers to see the structure of their music. For example, using muS a composer could designate mellow or softer sections of a song with lighter colors, use different shapes to represent different melodies, or mark common subsequences in a song with similar visual structures. By allowing composers to append visual information to the notes of a song, muS becomes a powerful visual tool for musical analysis.
 
-Javadoc for the project: http://htmlpreview.github.io/?https://github.com/irealva/mus/blob/master/javadoc/index.html
+We decided to compile muS into Java. We used Jlex as our lexical analyzer and CUP as our syntax and semantics analyzer. Javadoc for the project: http://htmlpreview.github.io/?https://github.com/irealva/mus/blob/master/javadoc/index.html
 
+Examples:
+1) Pachelbel Canon:
+  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Pachelbel.Canon.mus
+  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Pachelbel.Canon/Pachelbel.Canon.html
+
+2) Twinkle twinkle:
+  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Twinkle.mus
+  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Twinkle/Twinkle.html
+  
+3) Aho: 
+  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Aho.mus
+  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Aho/Aho.html
+  
+4) Note shapes:
+  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeShape.mus
+  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeShape/NoteAttributeShape.html
+  
+5) Note durations:
+  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeDuration.mus
+  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeDuration/NoteAttributeDuration.html
+  
+6) Note colors:
+  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeColor.mus
+  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeColor/NoteAttributeColor.html
