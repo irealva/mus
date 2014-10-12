@@ -16,25 +16,25 @@ We decided to compile muS into Java. We used Jlex as our lexical analyzer and CU
 
 Examples:
 1) Pachelbel Canon:
-  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Pachelbel.Canon.mus
-  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Pachelbel.Canon/Pachelbel.Canon.html
+Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Pachelbel.Canon.mus
+Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Pachelbel.Canon/Pachelbel.Canon.html
 
 2) Twinkle twinkle:
-  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Twinkle.mus
-  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Twinkle/Twinkle.html
+Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Twinkle.mus
+Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Twinkle/Twinkle.html
   
 3) Aho: 
-  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Aho.mus
-  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Aho/Aho.html
+Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/Aho.mus
+Output: https://mus.googlecode.com/svn/trunk/src/testfiles/Aho/Aho.html
   
 4) Note shapes:
-  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeShape.mus
-  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeShape/NoteAttributeShape.html
+Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeShape.mus
+Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeShape/NoteAttributeShape.html
   
 5) Note durations:
-  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeDuration.mus
-  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeDuration/NoteAttributeDuration.html
+Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeDuration.mus
+Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeDuration/NoteAttributeDuration.html
   
 6) Note colors:
-  Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeColor.mus
-  Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeColor/NoteAttributeColor.html
+Input: https://raw.githubusercontent.com/irealva/mus/master/src/testfiles/NoteAttributeColor.mus
+Output: https://mus.googlecode.com/svn/trunk/src/testfiles/NoteAttributeColor/NoteAttributeColor.html
